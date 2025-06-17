@@ -100,6 +100,11 @@ body, button{
 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 .header{
     background-color: var(--light-green-color);
     padding: 33px 0 32px 0 ; 
@@ -183,6 +188,10 @@ body, button{
     border-radius: 20px;
 }
 
+.works-button:hover {
+    background: var(--green-color);
+}
+
 .works-button-active{
     padding: 10px 20px;
     color: var(--white-color);
@@ -243,6 +252,10 @@ body, button{
     padding: 21px 100px;
     background: none;
     margin-top: 20px;
+}
+
+.work-buy:hover {
+    background: var(--black-color);
 }
 
 .work-down{
@@ -354,5 +367,5 @@ body, button{
 
 .footer-info p{
     font-size: 12px;
-    ,margin-bottom: 6px;
+    margin-bottom: 6px;
 }
