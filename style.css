@@ -310,7 +310,7 @@ html {
 }
 
 
-/* @media (min-width: 1440px){
+@media (min-width: 1440px){
     .container{
         max-width: 1110px;
     }
@@ -383,9 +383,9 @@ html {
     .contacts-phone{
         margin: 41px 0 8px 0;
     }
-} */
+}
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width:1439px) {
     .container {
         width: 690px;
         padding: 0 34px;
@@ -443,6 +443,10 @@ html {
         margin: 70px auto 30px;
         justify-content: space-between;
     }
+
+    .works-up-title {
+        justify-content: center;
+    }
     
     .work-example img{
         width: 290px;
@@ -467,10 +471,11 @@ html {
     .work-buy {
         padding: 21px 0;
         width: 100%;
-        font-size: 18px;
+        font-size: var(--font-size-eighteen);
     }
 
     .new-collection {
+            background-image: url(assets/pic_background_tablet.svg);
         padding: 70px 0;
     }
 
@@ -486,7 +491,7 @@ html {
     }
 
     .new-collection-text p {
-        font-size: 18px;
+        font-size: var(--font-size-eighteen);
         line-height: 27px;
         margin-bottom: 20px;
         width: 100%;
@@ -507,7 +512,7 @@ html {
     .team-text p {
         font-size: var(--font-size-eighteen);
         line-height: 27px;
-        margin: 20px 0;
+        margin: 40px 0;
     }
 
     .footer-flex {
@@ -526,12 +531,16 @@ html {
 
     .footer-right{
         display: flex;
+    }
+
+    .contacts{
+        margin-bottom: 30px;
+        display: flex;
         justify-content: space-between;
     }
 
-    .contacts-phone-masterskaya{
-        position: absolute;
-        left: 520px;       
-        top: 4250px;
+    .footer-social-media{
+        margin-left: 70px;
     }
+
 }
