@@ -555,6 +555,10 @@ html {
         display: none;
     }
 
+    .footer-row-mobile{
+        display: none;
+    }
+
 }
 
 @media (min-width: 320px) and (max-width:767px) {
