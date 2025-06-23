@@ -387,6 +387,10 @@ html {
     .header-button-mobile{
         display: none;
     }
+    
+    .footer-row-mobile{
+        display: none;
+    }
 }
 
 @media (min-width: 768px) and (max-width:1439px) {
